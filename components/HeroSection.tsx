@@ -173,13 +173,13 @@ export default function HeroSection() {
           className="mt-2 mb-1"
         >
           <h1 className="font-script text-[4.5rem] leading-none text-brown-soft text-shadow-soft">
-            Shreya
+            Shreya H.M
           </h1>
           <p className="font-playfair text-olive/70 text-base tracking-[0.2em] uppercase my-1">
             &amp;
           </p>
           <h1 className="font-script text-[4.5rem] leading-none text-brown-soft text-shadow-soft">
-            Suhas
+            Suhas R.Gowda
           </h1>
         </motion.div>
 
