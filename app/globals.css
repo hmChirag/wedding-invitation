@@ -96,6 +96,14 @@ body {
     line-height: 1.75;
   }
 
+  .font-script {
+    font-family: 'Great Vibes', cursive !important;
+  }
+
+  .font-allura {
+    font-family: 'Allura', cursive !important;
+  }
+
   .btn-elegant {
     display: inline-flex;
     align-items: center;

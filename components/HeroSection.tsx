@@ -172,13 +172,13 @@ export default function HeroSection() {
           transition={{ delay: 0.6, duration: 1 }}
           className="mt-2 mb-1"
         >
-          <h1 className="font-script text-[4.5rem] leading-none text-brown-soft text-shadow-soft">
+          <h1 className="font-script text-[3.5rem] leading-none text-brown-soft text-shadow-soft whitespace-nowrap">
             Shreya H.M
           </h1>
           <p className="font-playfair text-olive/70 text-base tracking-[0.2em] uppercase my-1">
             &amp;
           </p>
-          <h1 className="font-script text-[4.5rem] leading-none text-brown-soft text-shadow-soft">
+          <h1 className="font-script text-[3.5rem] leading-none text-brown-soft text-shadow-soft whitespace-nowrap">
             Suhas R.Gowda
           </h1>
         </motion.div>
