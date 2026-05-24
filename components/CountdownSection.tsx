@@ -33,19 +33,13 @@ function CountUnit({
   label: string;
   delay: number;
 }) {
-  const [prev, setPrev] = useState(value);
   const [flip, setFlip] = useState(false);
 
   useEffect(() => {
-    if (value !== prev) {
-      setFlip(true);
-      const t = setTimeout(() => {
-        setPrev(value);
-        setFlip(false);
-      }, 300);
-      return () => clearTimeout(t);
-    }
-  }, [value, prev]);
+    setFlip(true);
+    const t = setTimeout(() => setFlip(false), 300);
+    return () => clearTimeout(t);
+  }, [value]);
 
   return (
     <motion.div
@@ -69,7 +63,7 @@ function CountUnit({
             className="font-playfair text-3xl sm:text-4xl md:text-5xl font-bold text-brown-soft"
             suppressHydrationWarning
           >
-            {String(prev).padStart(2, "0")}
+            {String(value).padStart(2, "0")}
           </span>
         </motion.div>
       </div>
