@@ -1,9 +1,9 @@
 import HeroSection from "@/components/HeroSection";
-import CountdownSection from "@/components/CountdownSection";
 import CoupleSection from "@/components/CoupleSection";
 
 import EventsSection from "@/components/EventsSection";
 import VenueSection from "@/components/VenueSection";
+
 
 
 export default function Home() {
@@ -21,8 +21,8 @@ export default function Home() {
         />
 
         <HeroSection />
-        <CountdownSection />
         <CoupleSection />
+
 
         <EventsSection />
         <div className="h-16" />
